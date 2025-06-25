@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil Profissional</title>
+</head>
+<body>
+    <h1><i>👤 Perfil Profissional/Pessoal</i></h1>
+        <form>
+            <fieldset>
+                <legend><h3>📝 Informações Pessoais</h3></legend>
+                <img src="myfoto.jpg" width="8%">
+                <br>
+                <label for="nome"><u>Nome:</u> </label>
+                    <input type="text" id="nome" name="Nome" disabled placeholder="Rafael Luiz Pilonetto">
+                    <br><br>
+                <label for="idade"><u>Idade:</u> </label>
+                    <input type="number" id="idade" name="idade" disabled placeholder="16">
+                    <br><br>
+                <label for="DN"><u>Data De Nascimento:</u> </label>
+                    <input type="datetime" id="DN" name="DT" disabled placeholder="28/02/2009">
+                    <br><br>
+                <label for="prof"><u>Profissão Atual:</u> </label>
+                    <input type="text" id="prof" name="prof" disabled placeholder="Estagiario">
+                <br><br>
+                <label for="genero"><u>Gênero:</u> </label>
+                <select id="genero" name="genero" disabled>
+                    <option selected>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outro</option>
+                </select>
+                <br><br>
+                <textarea 
+                    name="texto" 
+                    id="texto" 
+                    rows="5" 
+                    cols="70"
+                    maxlength="10">Sou um jovem em início de carreira na área de tecnologia, atualmente fazendo parte da equipe da CISS – Software e Serviços, onde estou tendo minha primeira experiência prática com programação e rotina de uma empresa de TI.
+
+Tenho conhecimentos em HTML, CSS e lógica de programação, Python, TypeScript,  que desenvolvi nos estudos. Gosto de aprender coisas novas, sou curioso, responsável e sempre busco melhorar no que faço.
+
+Estou começando minha trajetória com muita vontade de crescer, aprender com profissionais experientes e evoluir dentro da área de desenvolvimento e tecnologia.
+                </textarea>
+            </fieldset>
+            <hr height="3%">
+            <fieldset>
+                <legend><h3>📞 Informações Para Contato</h3></legend>
+                <br>
+                <label for="telefone"><u>Telefone:</u> </label>
+                    <input type="number" id="numero" name="numero" disabled placeholder="(46) 99989-0251">
+                    <br><br>
+                <label for="email"><u>Email:</u> </label>
+                    <input type="email" id="email" name="email" disabled placeholder="rafaelpilonetto59@gmail.com">
+            </fieldset>
+            <hr height="3%">
+            <fieldset>
+                <legend><h3> Formações</h3></legend>
+                <label for="escolares">2° Ano Do Ensino Médio Técnico E Desenvolvimento De Sistemas</label>       
+            </fieldset>
+            <hr height="3%">
+            <fieldset>
+                <legend>🎯 Objetivos Para Esse Ano</legend>
+                    <h3>Minhas metas para este ano:</h3>
+                        <ol type="A" start="1">
+                            <li>Aprender a Programar Melhor/Novas Linguagens</li>
+                            <li>Se Empregar Em Uma Empresa De Software</li>
+                            <li>Ser Uma Pessoa Melhor</li>
+                        </ol>
+
+                <h3>Meus Principais Hobbies São:</h3>
+                <ul>
+                    <li>Treinar Jiu-Jitsu </li>
+                    <li>Visitar Minha Namorada </li>
+                    <li>Ver vídeos no TikTok e YouTube</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><h3>💻 Competências Técnicas</h3></legend>
+                <input type="checkbox" id="Lógica De Programação" name="prog" value="Lógica De Programação" checked>
+                <label for="Lógica De Programação">Lógica De Programação</label>
+                <br>
+                <input type="checkbox" id="POO" name="prog" value="POO" checked>
+                <label for="POO">POO</label>
+                <br>
+                <input type="checkbox" id="Resolução De Problemas" name="prog" value="Resolução De Problemas" checked>
+                <label for="Resolução De Problemas">Resolução De Problemas</label>
+                <br>
+                <input type="checkbox" id="Trabalho Em Equipe" name="prog" value="Trabalho Em Equipe" checked>
+                <label for="Trabalho Em Equipe">Trabalho Em Equipe</label>
+                <br>
+                <input type="checkbox" id="Adaptação Tecnológica" name="prog" value="Adaptação Tecnológica" checked>
+                <label for="Adaptação Tecnológica">Adaptação Tecnológica</label>
+            </fieldset>
+            <hr height="3%">
+            <fieldset>
+                <table width="100%" border="1">
+                    <tr>
+                        <th>Curso</th>
+                        <th>Local</th>
+                        <th>Carga horária</th>
+                    </tr>
+                    <tr>
+                        <td>Aprender e Crescer</td>
+                        <td>SUDOTEC | Dois Vizinhos</td>
+                        <td>530 HRS</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit">✅ Entregar</button>
+            <button type="reset">🧹 Limpar</button>
+        </form>
+</body>
+</html>
